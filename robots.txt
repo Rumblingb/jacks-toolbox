@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rumblingb.github.io/sitemap.xml
