@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Free Micro SaaS Starter Kit — build and deploy a Stripe-integrated web app to GitHub Pages in 5 minutes. Includes payment links, premium tiers, and SEO setup.">
+<title>Micro SaaS Starter Kit — Free Template | Jack's Toolbox</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1117;color:#e1e4ed;line-height:1.7}
+.container{max-width:750px;margin:0 auto;padding:40px 20px}
+h1{font-size:2rem;background:linear-gradient(135deg,#7c5cff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px}
+h2{color:#fff;font-size:1.2rem;margin:32px 0 12px}
+p,li{color:#8892a4;margin-bottom:12px}
+a{color:#7c5cff;text-decoration:none;font-weight:600}
+pre{background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;padding:16px;overflow-x:auto;color:#aab;font-size:0.85rem;margin:12px 0}
+code{color:#7c5cff}
+.cta{display:inline-block;background:linear-gradient(135deg,#7c5cff,#a78bfa);color:#fff;padding:14px 32px;border-radius:8px;font-size:1.1rem;font-weight:700;margin:20px 0;text-decoration:none}
+.step{background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;padding:20px;margin:16px 0}
+.step h3{color:#fff;margin-bottom:8px}
+.footer{margin-top:60px;padding-top:20px;border-top:1px solid #2a2d3a;color:#556;font-size:0.85rem}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🚀 Micro SaaS Starter Kit</h1>
+<p>Build and deploy a Stripe-integrated web app to GitHub Pages in 5 minutes. Free. Open source. No backend needed.</p>
+
+<h2>What You Get</h2>
+<ul>
+<li>Single HTML file template with premium tier structure</li>
+<li>Stripe Payment Link integration (no backend code)</li>
+<li>Dark theme, mobile responsive</li>
+<li>SEO optimized out of the box</li>
+<li>Free tier + premium upgrade pattern</li>
+<li>Deploy to GitHub Pages in 2 minutes</li>
+</ul>
+
+<h2>How It Works</h2>
+
+<div class="step">
+<h3>Step 1: Create a Stripe Payment Link</h3>
+<p>Go to your Stripe Dashboard → Products → Create Product. Set a one-time price (e.g. $9). Copy the payment link.</p>
+</div>
+
+<div class="step">
+<h3>Step 2: Customize the Template</h3>
+<p>Copy the HTML template below. Replace the placeholder text with your product details. Paste your Stripe Payment Link URL.</p>
+</div>
+
+<div class="step">
+<h3>Step 3: Deploy to GitHub Pages</h3>
+<pre><code>git init
+git add index.html
+git commit -m "Initial commit"
+gh repo create my-saas --public --push
+gh api repos/YOUR_USER/my-saas/pages -X POST -F "source[branch]=master" -F "source[path]=/"</code></pre>
+<p>Your SaaS is live at <code>youruser.github.io/my-saas</code> in 2 minutes.</p>
+</div>
+
+<div class="step">
+<h3>Step 4: Add SEO Pages</h3>
+<p>Create keyword-targeted landing pages (like this one) that rank on Google and drive free traffic to your SaaS.</p>
+</div>
+
+<h2>Real Examples Built With This Kit</h2>
+<p>Every tool in Jack's Toolbox was built with this exact template:</p>
+<ul>
+<li><a href="https://rumblingb.github.io/quickdev-tools/">QuickDev Tools</a> — Developer utility toolkit ($9 premium)</li>
+<li><a href="https://rumblingb.github.io/colorcraft-studio/">ColorCraft Studio</a> — Designer color tools ($12 premium)</li>
+<li><a href="https://rumblingb.github.io/invoicefast/">InvoiceFast</a> — Freelancer invoice generator ($15 premium)</li>
+</ul>
+
+<h2>Get the Template</h2>
+<p>The complete starter template is available on GitHub. Clone it, customize it, deploy it. Start making money in 5 minutes.</p>
+
+<a href="https://github.com/Rumblingb/quickdev-tools" class="cta">View Source on GitHub →</a>
+
+<p style="margin-top:12px;color:#556;font-size:0.9rem">MIT Licensed. Free forever. No attribution required (but appreciated).</p>
+
+<div class="footer">
+<p><a href="https://rumblingb.github.io/jacks-toolbox/">← Jack's Toolbox</a> — Free tools that respect your privacy</p>
+</div>
+</div>
+</body>
+</html>
